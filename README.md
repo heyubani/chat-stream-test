@@ -12,6 +12,11 @@ OpenAI Integration: Utilizes the OpenAI gpt-4.1 model (configurable) for generat
 
 Rate Limiting: Protects the API endpoint with a configurable rate limit (10 requests per minute by default).
 
+## Endpoint to test
+```
+  http://localhost:8080/api/v1/chat/stream?message=technology
+```
+
 ## Setup .env
 
 create a  `.env` file to the root folder then add url to your db to connect your postgres DBs. 
